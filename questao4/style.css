@@ -1,0 +1,21 @@
+#tela-data {
+  display: none;
+}
+body {
+  background-color: whitesmoke;
+}
+h1 {
+  text-align: center;
+}
+button {
+  margin-top: 20px;
+}
+input[type=date] {
+  background-color: aqua;
+  border: none;
+}
+.tela-principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

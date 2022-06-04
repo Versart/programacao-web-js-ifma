@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Questão 4</title>
+  </head>
+  <body>
+    <h1>Data por extenso</h1>
+    <div class="tela-principal">
+      <label for="data">Entre com uma data</label>
+      <input type="date" id="data" name="" pattern="dd/MM/yyyy" required />
+      <button type="button" onclick="extenso()" focus>Enviar</button>
+      <div class="tela-data" id="tela-data">
+        <p id="data-extenso"></p>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

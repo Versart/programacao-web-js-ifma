@@ -1,0 +1,28 @@
+input[type=number] {
+  text-align: center;
+  background-color:whitesmoke;
+}
+
+body {
+  background-color: aliceblue;
+
+}
+h1 {
+  text-align: center;
+}
+
+.entradas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resultados {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  margin-top: 10px;
+}

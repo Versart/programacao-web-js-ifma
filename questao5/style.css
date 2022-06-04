@@ -1,0 +1,33 @@
+.formulario {
+  background-color: aquamarine;
+  border: 1px solid red;
+}
+
+.form-row {
+  margin-bottom: 20px;
+}
+input[type=text] {
+  border: 1px solid whitesmoke;
+}
+button {
+  background-color: aqua;
+  padding: 7px;
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+.recibo {
+  background-color: darkgrey;
+  display: none;
+}
+
+.recibo h2,.recibo h4 {
+  text-align: center;
+}
+legend {
+  text-align: center;
+}
+
+p {
+  font-size: 30px;
+}
